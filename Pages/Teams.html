@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Seyyed Ali Mousavi">
+    <meta name="description" content="Best Site For 2022 World Cup Results">
+    <meta name="keywords" content="World Cup , 2022 , Soccer , World Cup 2022">
+    <title></title>
+    <link rel="stylesheet" href="../CSS/reset.css">
+    <link rel="icon" type="image/x-icon" href="../favicon.ico"/>
+    <script src="../JS/teams.js" defer></script>
+    <script src="../JS/events.js" defer></script>
+    <link rel="stylesheet" href="../Fonts/Vazir-Font/fonts.css">
+    <link rel="stylesheet" href="../Fonts/inter/inter.css">
+    <link rel="stylesheet" href="../CSS/style.css">
+</head>
+<body>
+    <header>
+        <section class="container">
+            <nav>
+                <a href="../index.html">
+                    <img src="../Pic/World-Cup-logo-landscape-on-dark.webp" alt="World Cup 2022">
+                </a>
+                <ul class="links">
+                    <li class="link"><a href="../index.html">صفحه اصلی</a></li>
+                    <li class="link"><a href="../Pages/knockout-stage.html">مراحل حذفی</a></li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+        <section class="container">
+            <span id="arrow-left__wrapper">
+                <svg xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="0 0 24 24" width="512" height="512"><path d="M19,10.5H10.207l2.439-2.439a1.5,1.5,0,0,0-2.121-2.122L6.939,9.525a3.505,3.505,0,0,0,0,4.95l3.586,3.586a1.5,1.5,0,0,0,2.121-2.122L10.207,13.5H19a1.5,1.5,0,0,0,0-3Z"/></svg>
+            </span>
+            <section class="team__wrapper">
+                <h1 class="team-title"></h1>
+                <img class="team-flag">
+                <a class="btn" id="download-btn" target="_blank" rel="noopener noreferrer">Download</a>
+                <span class="split-line"></span>
+                <ul class="team-stats">
+                    <li>گروه <span class="team-stats__group"></span></li>
+                    <li>بازی <span class="team-stats__MP"></span></li>
+                    <li>برد <span class="team-stats__W"></span></li>
+                    <li>تساوی <span class="team-stats__D"></span></li>
+                    <li>باخت <span class="team-stats__L"></span></li>
+                    <li>گل زده <span class="team-stats__GF"></span></li>
+                    <li>گل خورده <span class="team-stats__GA"></span></li>
+                    <li>تفاضل <span class="team-stats__GD"></span></li>
+                    <li>امتیاز <span class="team-stats__PTS"></span></li>
+                </ul>
+                <section class="last3__wrapper">
+                    <h2>سه بازی آخر</h2>
+                    <span class="split-line"></span>
+                    <ul class="team-last3"></ul>
+                </section>
+                <section class="team-NA__wrapper">
+                    <h2>سرود ملّی <span></span></h2>
+                    <audio id="team-NA" controls></audio>
+                </section>
+            </section>
+            <section class="sameGroup__wrapper">
+                <h2 class="team-title fa">هم گروهی ها</h2>
+                <div></div>
+            </section>
+            <section class="highlights__wrapper">
+                <h2 class="team-title fa">خلاصه بازی ها</h2>
+                <ul></ul>
+            </section>
+        </section>
+    </main>
+    <footer>
+        <section class="container">
+            <div>
+                <section class="join-newsletters">
+                    <h3>عضویت در خبرنامه</h3>
+                    <form action="#" method="post">
+                        <input type="email" name="email" id="email" placeholder="example@domain.com">
+                        <button type="button" id="submit-email-form" class="btn">عضویت</button>
+                    </form>
+                </section>
+                <section class="creators__wrapper">
+                    <h3>سازندگان</h3>
+                    <ul class="creators">
+                        <li>سید علی موسوی</li>
+                        <li>آریا باقری</li>
+                        <li>علی قاسمی</li>
+                        <li>وظیفه خواه</li>
+                        <li>بهراد طلایی</li>
+                        <li>مهدی عزیزی</li>
+                        <li>محراب متین</li>
+                        <li>حسین صباغیان</li>
+                        <li>محمد رضا آزادبخت</li>
+                        <li>محمد مهدی میرزایی</li>
+                        <li>محمدرضا دانشی مقدم</li>
+                    </ul>
+                </section>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
