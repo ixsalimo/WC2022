@@ -1,7 +1,14 @@
-# WC2022
-World Cup 2022 - Qatar | Teams &amp; Results
-## Social Media
-- [Twitter](https://twitter.com/ixsalimo)
-- [Instagram](https://www.instagram.com/ixsalimo)
+# World Cup 2022
 
-##### Created with :heart: by [Ali Mousavi](https://ixsalimo.com)
+World Cup 2022 Qatar teams and results.
+
+## Features
+
+- All highlights 📽
+- All teams & group tables 📊
+- National anthems and flags 🎵
+- Wins, Draws, Losses, GA, GF, GD, PTS &... 🏆
+
+## Authors
+
+- [@ixsalimo](https://github.com/ixsalimo)
